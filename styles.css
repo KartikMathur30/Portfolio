@@ -99,7 +99,7 @@ carousel-inner img {
     transition: all .75s ease;
 }
 #dp-zoom:hover{
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 #cardphoto-zoom{
@@ -142,6 +142,8 @@ carousel-inner img {
 /* instagram */
 #insta{
     background-color: rgb(211, 63, 63);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #insta-icon{
     transition: all .50s ease;
@@ -152,6 +154,8 @@ carousel-inner img {
 }
 #linkedin{
     background-color: rgb(22, 111, 228);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #linkedin-icon{
     transition: all .50s ease;
@@ -162,6 +166,8 @@ carousel-inner img {
 }
 #twitter{
     background-color: rgb(76, 149, 243);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #twitter-icon{
     transition: all .50s ease;
@@ -172,6 +178,8 @@ carousel-inner img {
 }
 #hackerRank{
     background-color: rgb(43, 204, 51);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 #hackerRank-icon{
     transition: all .50s ease;
