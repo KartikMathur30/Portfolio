@@ -18,12 +18,31 @@
     background: rgb(109, 123, 141);
 }
 
-#card1 {
+.card-img{
+    height: 100vh;
+}
+
+#mobile-img {
+    display:block;
+    height: 100vh;
+}
+
+#laptop-img {
+    display:none;
+    height: 25vh;
+}
+
+@media all and (max-width: 900px) {
+    #mobile-img {display: none;}
+    #laptop-img {display: block;}
+}
+
+/* #card-mobile {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    max-height: 710px;
-}
+    height: 100vh;
+} */
 
 carousel-inner img {
     height: 100%;
@@ -34,6 +53,10 @@ carousel-inner img {
     background-image: url(bg.gif);
     background-position: center;
     opacity: 0.95;
+}
+
+#imageSlider{
+    padding-top: 10vh;
 }
 
 #resumeButton a {
